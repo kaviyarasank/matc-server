@@ -1,5 +1,5 @@
 {
-  "name": "button-component",
+  "name": "button-componentss",
   "version": "0.1.0",
   "private": false,
   "babel": {
@@ -43,6 +43,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
     "@babel/preset-react": "^7.18.6"
   }
 }

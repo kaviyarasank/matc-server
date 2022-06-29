@@ -1,9 +1,9 @@
 import "./button.css";
 
-function Button(){
+function Button(props){
     return(
         <div>
-<button className="choicesbutton">Button</button>
+<button onClick={props.onClick} className="choicesbutton" data-testid={props.testid}>{props.name}</button>
         </div>
     )
 }
